@@ -1,0 +1,17 @@
+O:\D\C# Vi-St\Projects\Calculator_Project\Calculator\bin\Debug\Calculator.exe.config
+O:\D\C# Vi-St\Projects\Calculator_Project\Calculator\bin\Debug\Calculator.exe
+O:\D\C# Vi-St\Projects\Calculator_Project\Calculator\bin\Debug\Calculator.pdb
+O:\D\C# Vi-St\Projects\Calculator_Project\Calculator\bin\Debug\Bunifu_UI_v1.52.dll
+O:\D\C# Vi-St\Projects\Calculator_Project\Calculator\bin\Debug\Guna.UI.dll
+O:\D\C# Vi-St\Projects\Calculator_Project\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+O:\D\C# Vi-St\Projects\Calculator_Project\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+O:\D\C# Vi-St\Projects\Calculator_Project\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
+O:\D\C# Vi-St\Projects\Calculator_Project\Calculator\obj\Debug\Calculator.exe
+O:\D\C# Vi-St\Projects\Calculator_Project\Calculator\obj\Debug\Calculator.pdb
+O:\D\C# Vi-St\Projects\Calculator_Project\Calculator\obj\Debug\Calculator.Form_Calculator.resources
+O:\D\C# Vi-St\Projects\Calculator_Project\Calculator\bin\Debug\en\Calculator.resources.dll
+O:\D\C# Vi-St\Projects\Calculator_Project\Calculator\obj\Debug\Calculator.Form_Calculator.en.resources
+O:\D\C# Vi-St\Projects\Calculator_Project\Calculator\obj\Debug\en\Calculator.resources.dll
+O:\D\C# Vi-St\Projects\Calculator_Project\Calculator\bin\Debug\en-US\Calculator.resources.dll
+O:\D\C# Vi-St\Projects\Calculator_Project\Calculator\obj\Debug\Calculator.Form_Calculator.en-US.resources
+O:\D\C# Vi-St\Projects\Calculator_Project\Calculator\obj\Debug\en-US\Calculator.resources.dll
