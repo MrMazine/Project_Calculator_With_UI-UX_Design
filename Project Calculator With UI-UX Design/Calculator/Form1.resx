@@ -1,0 +1,1213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Elipse_Form.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 13</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>83</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>300, 475</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Lbl_Results.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Lbl_Results.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Baumans, 24pt</value>
+  </data>
+  <data name="Lbl_Results.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 32</value>
+  </data>
+  <data name="Lbl_Results.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 48</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Lbl_Results.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Results.Name" xml:space="preserve">
+    <value>Lbl_Results</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Results.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLineTextBox, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Results.Parent" xml:space="preserve">
+    <value>Panel_Results</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Results.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Lbl_Complete_Results.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Lbl_Complete_Results.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Baumans, 11pt</value>
+  </data>
+  <data name="Lbl_Complete_Results.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, -7</value>
+  </data>
+  <data name="Lbl_Complete_Results.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 45</value>
+  </data>
+  <data name="Lbl_Complete_Results.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Lbl_Complete_Results.Text" xml:space="preserve">
+    <value>455675</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Complete_Results.Name" xml:space="preserve">
+    <value>Lbl_Complete_Results</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Complete_Results.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaTextBox, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Complete_Results.Parent" xml:space="preserve">
+    <value>Panel_Results</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Complete_Results.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Btn_History.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_History.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_History.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt, style=Bold</value>
+  </data>
+  <data name="Btn_History.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Btn_History.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 0</value>
+  </data>
+  <data name="Btn_History.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="Btn_History.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Btn_History.Name" xml:space="preserve">
+    <value>Btn_History</value>
+  </data>
+  <data name="&gt;&gt;Btn_History.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_History.Parent" xml:space="preserve">
+    <value>Panel_Results</value>
+  </data>
+  <data name="&gt;&gt;Btn_History.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Btn_Symbol_Result_in_PannelResults.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_Symbol_Result_in_PannelResults.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_Symbol_Result_in_PannelResults.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt, style=Bold</value>
+  </data>
+  <data name="Btn_Symbol_Result_in_PannelResults.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Btn_Symbol_Result_in_PannelResults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 44</value>
+  </data>
+  <data name="Btn_Symbol_Result_in_PannelResults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 31</value>
+  </data>
+  <data name="Btn_Symbol_Result_in_PannelResults.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Btn_Symbol_Result_in_PannelResults.Name" xml:space="preserve">
+    <value>Btn_Symbol_Result_in_PannelResults</value>
+  </data>
+  <data name="&gt;&gt;Btn_Symbol_Result_in_PannelResults.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_Symbol_Result_in_PannelResults.Parent" xml:space="preserve">
+    <value>Panel_Results</value>
+  </data>
+  <data name="&gt;&gt;Btn_Symbol_Result_in_PannelResults.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Panel_Results.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Panel_Results.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 55</value>
+  </data>
+  <data name="Panel_Results.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 86</value>
+  </data>
+  <data name="Panel_Results.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Panel_Results.Name" xml:space="preserve">
+    <value>Panel_Results</value>
+  </data>
+  <data name="&gt;&gt;Panel_Results.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaElipsePanel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Panel_Results.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel_Results.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Panel_MenuStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Panel_MenuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="Panel_MenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 24</value>
+  </data>
+  <data name="Panel_MenuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Panel_MenuStrip.Name" xml:space="preserve">
+    <value>Panel_MenuStrip</value>
+  </data>
+  <data name="&gt;&gt;Panel_MenuStrip.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaElipsePanel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Panel_MenuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel_MenuStrip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Btn_Result.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_Result.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_Result.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt, style=Bold</value>
+  </data>
+  <data name="Btn_Result.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Btn_Result.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 260</value>
+  </data>
+  <data name="Btn_Result.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_Result.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Btn_Result.Name" xml:space="preserve">
+    <value>Btn_Result</value>
+  </data>
+  <data name="&gt;&gt;Btn_Result.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_Result.Parent" xml:space="preserve">
+    <value>Panel_Numbers_And_Operations</value>
+  </data>
+  <data name="&gt;&gt;Btn_Result.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Btn_Plus_And_Substraction.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_Plus_And_Substraction.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="Btn_Plus_And_Substraction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 260</value>
+  </data>
+  <data name="Btn_Plus_And_Substraction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_Plus_And_Substraction.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Btn_Plus_And_Substraction.Text" xml:space="preserve">
+    <value>+/-</value>
+  </data>
+  <data name="&gt;&gt;Btn_Plus_And_Substraction.Name" xml:space="preserve">
+    <value>Btn_Plus_And_Substraction</value>
+  </data>
+  <data name="&gt;&gt;Btn_Plus_And_Substraction.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_Plus_And_Substraction.Parent" xml:space="preserve">
+    <value>Panel_Numbers_And_Operations</value>
+  </data>
+  <data name="&gt;&gt;Btn_Plus_And_Substraction.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Btn_3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="Btn_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 196</value>
+  </data>
+  <data name="Btn_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Btn_3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Btn_3.Name" xml:space="preserve">
+    <value>Btn_3</value>
+  </data>
+  <data name="&gt;&gt;Btn_3.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_3.Parent" xml:space="preserve">
+    <value>Panel_Numbers_And_Operations</value>
+  </data>
+  <data name="&gt;&gt;Btn_3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Btn_6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="Btn_6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 132</value>
+  </data>
+  <data name="Btn_6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_6.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Btn_6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Btn_6.Name" xml:space="preserve">
+    <value>Btn_6</value>
+  </data>
+  <data name="&gt;&gt;Btn_6.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_6.Parent" xml:space="preserve">
+    <value>Panel_Numbers_And_Operations</value>
+  </data>
+  <data name="&gt;&gt;Btn_6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Btn_9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="Btn_9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 68</value>
+  </data>
+  <data name="Btn_9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_9.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Btn_9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Btn_9.Name" xml:space="preserve">
+    <value>Btn_9</value>
+  </data>
+  <data name="&gt;&gt;Btn_9.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_9.Parent" xml:space="preserve">
+    <value>Panel_Numbers_And_Operations</value>
+  </data>
+  <data name="&gt;&gt;Btn_9.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Btn_0.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="Btn_0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 260</value>
+  </data>
+  <data name="Btn_0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_0.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Btn_0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Btn_0.Name" xml:space="preserve">
+    <value>Btn_0</value>
+  </data>
+  <data name="&gt;&gt;Btn_0.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_0.Parent" xml:space="preserve">
+    <value>Panel_Numbers_And_Operations</value>
+  </data>
+  <data name="&gt;&gt;Btn_0.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Btn_Dot.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_Dot.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 14pt, style=Bold</value>
+  </data>
+  <data name="Btn_Dot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 260</value>
+  </data>
+  <data name="Btn_Dot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_Dot.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Btn_Dot.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;Btn_Dot.Name" xml:space="preserve">
+    <value>Btn_Dot</value>
+  </data>
+  <data name="&gt;&gt;Btn_Dot.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_Dot.Parent" xml:space="preserve">
+    <value>Panel_Numbers_And_Operations</value>
+  </data>
+  <data name="&gt;&gt;Btn_Dot.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Btn_2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="Btn_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 196</value>
+  </data>
+  <data name="Btn_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Btn_2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Btn_2.Name" xml:space="preserve">
+    <value>Btn_2</value>
+  </data>
+  <data name="&gt;&gt;Btn_2.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_2.Parent" xml:space="preserve">
+    <value>Panel_Numbers_And_Operations</value>
+  </data>
+  <data name="&gt;&gt;Btn_2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Btn_1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="Btn_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 196</value>
+  </data>
+  <data name="Btn_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Btn_1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Btn_1.Name" xml:space="preserve">
+    <value>Btn_1</value>
+  </data>
+  <data name="&gt;&gt;Btn_1.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_1.Parent" xml:space="preserve">
+    <value>Panel_Numbers_And_Operations</value>
+  </data>
+  <data name="&gt;&gt;Btn_1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Btn_5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="Btn_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 132</value>
+  </data>
+  <data name="Btn_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Btn_5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Btn_5.Name" xml:space="preserve">
+    <value>Btn_5</value>
+  </data>
+  <data name="&gt;&gt;Btn_5.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_5.Parent" xml:space="preserve">
+    <value>Panel_Numbers_And_Operations</value>
+  </data>
+  <data name="&gt;&gt;Btn_5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Btn_4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="Btn_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 132</value>
+  </data>
+  <data name="Btn_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Btn_4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Btn_4.Name" xml:space="preserve">
+    <value>Btn_4</value>
+  </data>
+  <data name="&gt;&gt;Btn_4.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_4.Parent" xml:space="preserve">
+    <value>Panel_Numbers_And_Operations</value>
+  </data>
+  <data name="&gt;&gt;Btn_4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Btn_8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="Btn_8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 68</value>
+  </data>
+  <data name="Btn_8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_8.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Btn_8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Btn_8.Name" xml:space="preserve">
+    <value>Btn_8</value>
+  </data>
+  <data name="&gt;&gt;Btn_8.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_8.Parent" xml:space="preserve">
+    <value>Panel_Numbers_And_Operations</value>
+  </data>
+  <data name="&gt;&gt;Btn_8.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Btn_7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="Btn_7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 68</value>
+  </data>
+  <data name="Btn_7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_7.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Btn_7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Btn_7.Name" xml:space="preserve">
+    <value>Btn_7</value>
+  </data>
+  <data name="&gt;&gt;Btn_7.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_7.Parent" xml:space="preserve">
+    <value>Panel_Numbers_And_Operations</value>
+  </data>
+  <data name="&gt;&gt;Btn_7.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Btn_Div.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_Div.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="Btn_Div.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Btn_Div.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_Div.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Btn_Div.Name" xml:space="preserve">
+    <value>Btn_Div</value>
+  </data>
+  <data name="&gt;&gt;Btn_Div.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_Div.Parent" xml:space="preserve">
+    <value>Panel_Operations</value>
+  </data>
+  <data name="&gt;&gt;Btn_Div.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Btn_Mult.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_Mult.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="Btn_Mult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 62</value>
+  </data>
+  <data name="Btn_Mult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_Mult.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Btn_Mult.Name" xml:space="preserve">
+    <value>Btn_Mult</value>
+  </data>
+  <data name="&gt;&gt;Btn_Mult.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_Mult.Parent" xml:space="preserve">
+    <value>Panel_Operations</value>
+  </data>
+  <data name="&gt;&gt;Btn_Mult.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Btn_Sub.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_Sub.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="Btn_Sub.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 124</value>
+  </data>
+  <data name="Btn_Sub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_Sub.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Btn_Sub.Name" xml:space="preserve">
+    <value>Btn_Sub</value>
+  </data>
+  <data name="&gt;&gt;Btn_Sub.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_Sub.Parent" xml:space="preserve">
+    <value>Panel_Operations</value>
+  </data>
+  <data name="&gt;&gt;Btn_Sub.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Btn_Add.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_Add.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="Btn_Add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 186</value>
+  </data>
+  <data name="Btn_Add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_Add.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Btn_Add.Name" xml:space="preserve">
+    <value>Btn_Add</value>
+  </data>
+  <data name="&gt;&gt;Btn_Add.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_Add.Parent" xml:space="preserve">
+    <value>Panel_Operations</value>
+  </data>
+  <data name="&gt;&gt;Btn_Add.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Panel_Operations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 10</value>
+  </data>
+  <data name="Panel_Operations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 238</value>
+  </data>
+  <data name="Panel_Operations.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Panel_Operations.Name" xml:space="preserve">
+    <value>Panel_Operations</value>
+  </data>
+  <data name="&gt;&gt;Panel_Operations.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaElipsePanel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Panel_Operations.Parent" xml:space="preserve">
+    <value>Panel_Numbers_And_Operations</value>
+  </data>
+  <data name="&gt;&gt;Panel_Operations.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Btn_Per.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_Per.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="Btn_Per.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 0</value>
+  </data>
+  <data name="Btn_Per.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_Per.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Btn_Per.Name" xml:space="preserve">
+    <value>Btn_Per</value>
+  </data>
+  <data name="&gt;&gt;Btn_Per.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_Per.Parent" xml:space="preserve">
+    <value>gunaElipsePanel3</value>
+  </data>
+  <data name="&gt;&gt;Btn_Per.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Btn_Clear.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_Clear.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="Btn_Clear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 0</value>
+  </data>
+  <data name="Btn_Clear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_Clear.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Btn_Clear.Name" xml:space="preserve">
+    <value>Btn_Clear</value>
+  </data>
+  <data name="&gt;&gt;Btn_Clear.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_Clear.Parent" xml:space="preserve">
+    <value>gunaElipsePanel3</value>
+  </data>
+  <data name="&gt;&gt;Btn_Clear.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Btn_Reset.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Btn_Reset.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Berlin Sans FB, 14pt</value>
+  </data>
+  <data name="Btn_Reset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Btn_Reset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="Btn_Reset.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Btn_Reset.Text" xml:space="preserve">
+    <value>AC</value>
+  </data>
+  <data name="&gt;&gt;Btn_Reset.Name" xml:space="preserve">
+    <value>Btn_Reset</value>
+  </data>
+  <data name="&gt;&gt;Btn_Reset.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_Reset.Parent" xml:space="preserve">
+    <value>gunaElipsePanel3</value>
+  </data>
+  <data name="&gt;&gt;Btn_Reset.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gunaGradientTileButton18.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="gunaGradientTileButton18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 15pt</value>
+  </data>
+  <data name="gunaGradientTileButton18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gunaGradientTileButton18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="gunaGradientTileButton18.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;gunaGradientTileButton18.Name" xml:space="preserve">
+    <value>gunaGradientTileButton18</value>
+  </data>
+  <data name="&gt;&gt;gunaGradientTileButton18.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientTileButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaGradientTileButton18.Parent" xml:space="preserve">
+    <value>gunaElipsePanel3</value>
+  </data>
+  <data name="&gt;&gt;gunaGradientTileButton18.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gunaElipsePanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 10</value>
+  </data>
+  <data name="gunaElipsePanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 52</value>
+  </data>
+  <data name="gunaElipsePanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gunaElipsePanel3.Name" xml:space="preserve">
+    <value>gunaElipsePanel3</value>
+  </data>
+  <data name="&gt;&gt;gunaElipsePanel3.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaElipsePanel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaElipsePanel3.Parent" xml:space="preserve">
+    <value>Panel_Numbers_And_Operations</value>
+  </data>
+  <data name="&gt;&gt;gunaElipsePanel3.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Panel_Numbers_And_Operations.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="Panel_Numbers_And_Operations.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 8.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="Panel_Numbers_And_Operations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 141</value>
+  </data>
+  <data name="Panel_Numbers_And_Operations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 334</value>
+  </data>
+  <data name="Panel_Numbers_And_Operations.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Panel_Numbers_And_Operations.Name" xml:space="preserve">
+    <value>Panel_Numbers_And_Operations</value>
+  </data>
+  <data name="&gt;&gt;Panel_Numbers_And_Operations.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaElipsePanel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Panel_Numbers_And_Operations.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel_Numbers_And_Operations.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Btn_Close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 5</value>
+  </data>
+  <data name="Btn_Close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="Btn_Close.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Btn_Close.Name" xml:space="preserve">
+    <value>Btn_Close</value>
+  </data>
+  <data name="&gt;&gt;Btn_Close.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaImageButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_Close.Parent" xml:space="preserve">
+    <value>Panel_Title</value>
+  </data>
+  <data name="&gt;&gt;Btn_Close.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Btn_Title_App.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Berlin Sans FB, 11pt</value>
+  </data>
+  <data name="Btn_Title_App.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Btn_Title_App.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 28</value>
+  </data>
+  <data name="Btn_Title_App.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Btn_Title_App.Text" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="&gt;&gt;Btn_Title_App.Name" xml:space="preserve">
+    <value>Btn_Title_App</value>
+  </data>
+  <data name="&gt;&gt;Btn_Title_App.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientButton, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Btn_Title_App.Parent" xml:space="preserve">
+    <value>Panel_Title</value>
+  </data>
+  <data name="&gt;&gt;Btn_Title_App.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel_Title.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Panel_Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Panel_Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Panel_Title.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Panel_Title.Name" xml:space="preserve">
+    <value>Panel_Title</value>
+  </data>
+  <data name="&gt;&gt;Panel_Title.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaElipsePanel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Panel_Title.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel_Title.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAA
+        AABqxhwkbMUexmzFHf1sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR34bMUdp3S5
+        FwsAAAAAAAAAAGq/FQxsxR2obMUd+GzFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        Hf1rxRzFbcUdI2zFHcBsxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9sxR3/bMUdhAAAAAAAAAAAa8UdhWzFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9sxR3/bMUd/2zFHf9sxh2/bMUd+mzFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9sxR3/bMUd/2zFHf9sxh2/AAAAAAAAAABsxh2/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHfpsxR3/bMUd/2zFHf9sxR36bcQcW2zFHblsxR3/bMUd/2zF
+        Hf9sxh2GbMUeiWzFHf9sxR3/bMUd/2zEHcQAAAAAAAAAAGzEHcRsxR3/bMUd6mzEHbtsxB27bMQdu2zE
+        HbtsxB27bMQdu2zEHbtsxB27bMQdu2zFHdpsxR3/bMUd/2zFHf9sxR3/bMUd/2zGHFoAAAAAYL8gCGzF
+        HbhsxR3/a8UdhQAAAAAAAAAAbMUdlWzFHf9sxR3/bMQdxAAAAAAAAAAAbMQdxGzFHf9txR2wAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbMUcdmzFHf9sxR3/bMUd/2zFHf9sxR3/bMUdunHG
+        HAkAAAAAYL8gCG3GHl4AAAAAAAAAAHDHICBrxR3fbMUd/2zFHf9sxB3EAAAAAAAAAABsxB3EbMUd/23F
+        HbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsxRx2bMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9sxR3/bMQdu3HGHAkAAAAAAAAAAAAAAABswR8hbMUc4GzFHf9sxR3/bMUd/2zEHcQAAAAAAAAAAGzE
+        HcRsxR3/bMUd72zGHcxsxh3MbMYdzGzGHcxsxh3MbMYdzGzGHcxsxh3MbMYdzGzFHeRsxR3/bMUd/2zF
+        Hf9sxR3/bMUd/2zFHf9sxR3/bcUdYAAAAAAAAAAAAAAAAG3FHptsxR3/bMUd/2zFHf9sxR3/bMQdxAAA
+        AAAAAAAAbMQdxGzFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9sxR3/bMUd/2zFHf9sxR3/bMUd/23GHoEAAAAAAAAAAAAAAAAAAAAAbbYkB2zFHrVsxR3/bMUd/2zF
+        Hf9sxB3EAAAAAAAAAABsxB3EbMUd/2zFHeVsxR2qbMUdqmzFHapsxR2qbMUdqmzFHapsxR2qbMUdqmzF
+        HaptxB3RbMUd/2zFHf9sxR3/bMUd/2zFHf9sxR6AAAAAAAAAAABwxyAgbMQdoXHGHAkAAAAAbbYkB2zF
+        HLRsxR3/bMUd/2zEHcQAAAAAAAAAAGzEHcRsxR3/bcUdsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAGzFHHZsxR3/bMUd/2zFHf9sxR3/bMUd/2zFHYQAAAAAb8ghF2zFHdZsxR3/bMUdsWbM
+        MwWA1SsGbMUctGzFHf9sxR3/bMQdxAAAAAAAAAAAbMQdxGzFHf9txR2wAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAbMUcdmzFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2vFHJFsxR3cbMUd/2zF
+        Hf9sxR3/bMUetWzFHbhsxR3/bMUd/2zFHf9sxB3EAAAAAAAAAABsxB3EbMUd/2zFHfVsxR3dbMUd3WzF
+        Hd1sxR3dbMUd3WzFHd1sxR3dbMUd3WzFHd1sxR3tbMUd/2zFHf9sxR3zbMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHbgAAAAAAAAAAGzFHblsxR3/bMUd/2zF
+        Hf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd82vFHqRsxR3/bMUd/2zF
+        Hf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bcYeZwAAAAAAAAAAa8UdaWzF
+        Hf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9txRyiccYcCWzE
+        HYJsxR3CbMYdzGzGHcxsxh3MbMYdzGzGHcxsxh3MbMYdzGzGHcxsxh3MbMUduWzEHGMA/wABAAAAAAAA
+        AAAA/wABa8QcZGzFHblsxh3MbMYdzGzGHcxsxh3MbMYdzGzGHcxsxh3MbMYdzGzGHcxsxR3CbcYegXHG
+        HAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAccYcCWzEHYJsxR25bMQdu2zEHbtsxB27bMQdu2zEHbtsxB27bMQdu2zE
+        HbtsxB27bMUctGzEHGMA/wABAAAAAAAAAAAA/wABa8QcZGzFHLRsxB27bMQdu2zEHbtsxB27bMQdu2zE
+        HbtsxB27bMQdu2zEHbtsxR25bcYegXHGHAlrxR2fbMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9sxR3/bMUd/2zFHf9sxR3/bMUd/23GHWIAAAAAAAAAAGvEHGRsxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/a8UdnWvFHvJsxR3/bMUd/2zFHf9sxR3/bMUd/2vF
+        HMVsxB27bMYd1WzFHf9sxR3/bMUd/2zFHf9sxR3/bcQdtwAAAAAAAAAAbMUduGzFHf9sxR3/bMUd/2zF
+        Hf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9rxR7ybMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9sxR3/b8QaJwAAAABtxh1ibMUd/2zFHf9sxR3/bMUd/2zFHf9sxB3EAAAAAAAAAABsxB3EbMUd/2zF
+        Hf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9sxR3/bMUd/2zFHf9vxBonAAAAAG3GHWJsxR3/bMUd/2zFHf9sxR3/bMUd/2zEHcQAAAAAAAAAAGzE
+        HcRsxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9sxR3/bMUd/2zFHf9sxR3/bMUd/2/EGicAAAAAbcYdYmzFHf9sxR3/bMUd/2zFHf9sxR3/bMQdxAAA
+        AAAAAAAAbMQdxGzFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9sxR3/bMUd/2zFHf9sxh2tbMYeZmzGHmZsxh5mcL8gEAAAAABvxBonbMYeZmzGHmZsxh5mbMUd0GzF
+        Hf9sxB3EAAAAAAAAAABsxB3EbMUd/2zFHdBsxh5mbMYeZmzGHmZsxh5mbMYeZmzGHmZsxh5mbMYeZmzG
+        HmZsxh2tbMUd/2zFHf9sxR3/bMUd/2zFHHYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AABtxR2wbMUd/2zEHcQAAAAAAAAAAGzEHcRsxR3/bcUdsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAGzFHHZsxR3/bMUd/2zFHf9sxR3/bcUciGnDHiJpwx4iacMeImbMMwUAAAAAdsQUDWnD
+        HiJpwx4iacMeImzEHbtsxR3/bMQdxAAAAAAAAAAAbMQdxGzFHf9sxB27acMeImnDHiJpwx4iacMeImnD
+        HiJpwx4iacMeImnDHiJpwx4ibcUciGzFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/b8QaJwAA
+        AABtxh1ibMUd/2zFHf9sxR3/bMUd/2zFHf9sxB3EAAAAAAAAAABsxB3EbMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9vxBonAAAAAG3GHWJsxR3/bMUd/2zFHf9sxR3/bMUd/2zEHcQAAAAAAAAAAGzEHcRsxR3/bMUd/2zF
+        Hf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9sxR3/bMUd/2/EGicAAAAAbcYdYmzFHf9sxR3/bMUd/2zFHf9sxR3/bMQdxAAAAAAAAAAAbMQdxGzF
+        Hf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd+mzF
+        Hf9sxR3/bMUd/2zFHf9sxR3/bMYdfWzGHmZsxB2hbMUd/2zFHf9sxR3/bMUd/2zFHf9sxh2/AAAAAAAA
+        AABsxh2/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        HfpsxR3AbMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        HYQAAAAAAAAAAGvFHYVsxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9sxR3/bMYdv2rGHCRtxR3DbMUd92zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        HfBsxR2ndLkXCwAAAAAAAAAAar8VDGzFHahsxR3wbMUd/2zFHf9sxR3/bMUd/2zFHf9sxR3/bMUd/2zF
+        Hf9sxR3/bMUd92zFHcJtxR0jgAPAAQABgAAAAYAACAGAABxhj/wP4Y/8B8GAAAeBgAAHwYAADuGP/Axh
+        j/wAAYAAAAGAAAADwACAB+AB//////////+AB+ABAAPAAAABgAADgYAAA4GAAAOBgAAf8Y/4P/GP/B/x
+        j/gDgYAAA4GAAAOBgAADAYAAAAGAAIADwAE=
+</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>300, 475</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>300, 475</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;Elipse_Form.Name" xml:space="preserve">
+    <value>Elipse_Form</value>
+  </data>
+  <data name="&gt;&gt;Elipse_Form.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaElipse, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;DragControl_Form_Calculator.Name" xml:space="preserve">
+    <value>DragControl_Form_Calculator</value>
+  </data>
+  <data name="&gt;&gt;DragControl_Form_Calculator.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaDragControl, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;DragControl_Panel_Numbers.Name" xml:space="preserve">
+    <value>DragControl_Panel_Numbers</value>
+  </data>
+  <data name="&gt;&gt;DragControl_Panel_Numbers.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaDragControl, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;DragControl_P_Operations.Name" xml:space="preserve">
+    <value>DragControl_P_Operations</value>
+  </data>
+  <data name="&gt;&gt;DragControl_P_Operations.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaDragControl, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;DragControl_P_Title.Name" xml:space="preserve">
+    <value>DragControl_P_Title</value>
+  </data>
+  <data name="&gt;&gt;DragControl_P_Title.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaDragControl, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;DragControl_P_Results.Name" xml:space="preserve">
+    <value>DragControl_P_Results</value>
+  </data>
+  <data name="&gt;&gt;DragControl_P_Results.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaDragControl, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;DragControl_P_MenuStrip.Name" xml:space="preserve">
+    <value>DragControl_P_MenuStrip</value>
+  </data>
+  <data name="&gt;&gt;DragControl_P_MenuStrip.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaDragControl, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form_Calculator</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="DragControl_Form_Calculator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>115, 13</value>
+  </metadata>
+  <metadata name="DragControl_Panel_Numbers.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>344, 41</value>
+  </metadata>
+  <metadata name="DragControl_P_Operations.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>-1, 41</value>
+  </metadata>
+  <metadata name="DragControl_P_Title.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>181, 40</value>
+  </metadata>
+  <metadata name="DragControl_P_Results.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>344, 14</value>
+  </metadata>
+  <metadata name="DragControl_P_MenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>531, 15</value>
+  </metadata>
+</root>
